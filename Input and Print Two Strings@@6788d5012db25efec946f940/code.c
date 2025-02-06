@@ -3,7 +3,7 @@
 
 int main() {
     char c[500];
-    scanf("%s",&c);
+    fgetsf("%s",&c);
     printf("You entered: %s", c);
     return 0;
 }
