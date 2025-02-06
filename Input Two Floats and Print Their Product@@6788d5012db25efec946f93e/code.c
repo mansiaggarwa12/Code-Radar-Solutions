@@ -3,9 +3,9 @@
 
 
 int main() {
-    int a,b;
+    float a,b;
     scanf("%f%f",&a,&b);
-    p=a*b;
-    printf("%f", p);
+    float p=a*b;
+    printf("%f",p);
     return 0;
 }
