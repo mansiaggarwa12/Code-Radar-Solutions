@@ -1,17 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    int a,b,c,N;
-    scanf("%d",&N);
-    for (a=0;a<N;a++)
+    int a,b,c,n;
+    scanf(%d,&n);
+    int p=(2*n)+1;
+    for (a=0;a<n;a++)
     {
-        for (b=0;b<=N-1-a;b++)
+        for (b=0;b<a;b++)
         {
             printf(" ");
         }
-        for (c=0;c<(2*a)-1;c+=2)
+        for (c=0;c<p;c++)
         {
-            printf("*");
+            printf("* ");
         }
         printf("\n");
     }
