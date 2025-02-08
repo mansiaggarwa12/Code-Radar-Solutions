@@ -7,7 +7,7 @@ int main() {
     p=(2*n)+1;
     for (a=0;a<p;a++)
     {
-        for (b=a;b>5-a;b--)
+        for (b=a;b>p-a;b--)
         {
             printf(" ");
         }
