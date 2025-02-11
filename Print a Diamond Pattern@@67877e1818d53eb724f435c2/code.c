@@ -15,9 +15,9 @@ int main()
         }
         printf("\n");
     }
-    for (a=0;a<n-2;a++)
+    for (a=0;a<n-1;a++)
     {
-        for (b=0;b<a;b++)
+        for (b=0;b<5-a;b++)
         {
             printf(" ");
         }
