@@ -21,7 +21,7 @@ int main()
         {
             printf(" ");
         }
-        for (c=(2*a)+1;c>0;c++)
+        for (c=(2*a)+1;c>0;c--)
         {
             printf("*");
         }
