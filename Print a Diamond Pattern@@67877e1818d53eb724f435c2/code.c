@@ -17,11 +17,11 @@ int main()
     }
     for (a=0;a<n-1;a++)
     {
-        for (b=0;b<5-a;b++)
+        for (b=0;b<a;b++)
         {
             printf(" ");
         }
-        for (c=0;c<(2*a)+1;c++)
+        for (c=(2*a)+1;c>0;c++)
         {
             printf("*");
         }
