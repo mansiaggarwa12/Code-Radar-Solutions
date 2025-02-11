@@ -19,7 +19,7 @@ int main()
     {
         for (b=0;b<=a;b++)
         {
-            printf("_");
+            printf(" ");
         }
         for (c=n-(2*a)+1;c>0;c--)
         {
