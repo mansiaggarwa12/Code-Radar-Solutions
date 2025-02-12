@@ -11,7 +11,7 @@ int main()
     scanf("%d",&K);
     for (a=0;a<N;a++)
     {
-        printf("%d\n",arr[a]+K);
+        printf("%d\n",arr[a]-K);
     }
     return 0;
 }
