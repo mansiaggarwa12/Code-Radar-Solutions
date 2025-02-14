@@ -7,7 +7,7 @@ int main()
     {
         for (b=0;b<n-a;b++)
         {
-            printf("%c",c);
+            printf("%c ",c);
             c++;
         }
         c='A';
