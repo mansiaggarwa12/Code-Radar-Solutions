@@ -8,9 +8,9 @@ int main()
         for (b=0;b<a;b++)
         {
             if((a+b)%2==0)
-            printf(1);
+            {printf(1);}
             else 
-            printf(0);
+            {printf(0);}
         }
         printf("\n");
     }
