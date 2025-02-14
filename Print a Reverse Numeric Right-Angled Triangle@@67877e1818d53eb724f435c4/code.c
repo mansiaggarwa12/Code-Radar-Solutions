@@ -7,7 +7,7 @@ int main() {
         for (b=n-a;b>0;b--)
         {
             printf("%d ",d);
-            d=n-b+1;
+            d=n-b;
         }
         d=1;
         printf("\n");
