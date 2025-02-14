@@ -6,9 +6,9 @@ int main ()
     c='A';
     for (a=0;a<n;a++)
     {
-        for (b=1;b<=a;b++)
+        for (b=1;b<a;b++)
         {
-            printf("%c",c);
+            printf("%c ",c);
             c++;
         }
         printf("\n");
