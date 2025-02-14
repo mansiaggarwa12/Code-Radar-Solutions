@@ -1,22 +1,16 @@
 #include <stdio.h>
 int main()
 {
-    int a,b,c=1,n;
+    int a,b,n;
     scanf("%d",&n);
     for (a=0;a<n;a++)
     {
         for (b=0;b<a;b++)
         {
-            if(c==1)
-            {
-                c=0;
-            }
-            else
-            {
-                c=1;
-            }
-            printf("%d ",c);
-
+            if((a+b)%2==0)
+            printf(1);
+            else 
+            printf(0);
         }
         printf("\n");
     }
