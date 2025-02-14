@@ -1,19 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int a,b,c,n;
+    int a,b,n;
     scanf("%d",&n);
-    int p;
-    p=(2*n)+1;
-    for (a=0;a<p;a++)
+    for (a=0;a<n;a++)
     {
-        for (b=a;b>p-a;b--)
+        for (b=0;b<2*a+1;b++)
         {
-            printf(" ");
-        }
-        for (c=0;c<a;c++)
-        {
-            printf("* ");
+            printf("*");
         }
         printf("\n");
     }
