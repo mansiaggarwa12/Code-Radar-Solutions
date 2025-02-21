@@ -10,5 +10,6 @@ int main()
             printf("%d",n);
             n=n*(b-c)/(c+1);
         }
+        printf("\n");
     }
 }
