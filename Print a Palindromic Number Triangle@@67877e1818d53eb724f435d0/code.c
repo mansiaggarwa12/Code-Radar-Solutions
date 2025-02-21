@@ -11,8 +11,9 @@ int main()
         }
         for (c=0;c<=b;c++)
         {
-            printf("%d",n);
+            // printf("%d",n);
             n=n*((b-c)/(c+1));
+            printf("%d",n);
         }
         printf("\n");
     }
