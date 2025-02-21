@@ -12,9 +12,7 @@ int main()
         n=1;
         for (c=0;c<=b;c++)
         {
-        
-            // printf("%d",n);
-            n=n*((b-c)/(c+1));
+            n = n * (b - c) / (c + 1);
             printf("%d",n);
         }
         printf("\n");
