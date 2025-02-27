@@ -22,11 +22,11 @@ int main()
             }
         }
     }
-    if (s==1)
+    if (sorted==1)
     {
         printf("Not Sorted");
     }
-    else if (s==0)
+    else if (sorted==0)
     {
         printf ("Sorted");
     }
