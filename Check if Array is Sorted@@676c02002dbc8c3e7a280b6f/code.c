@@ -8,16 +8,14 @@ int main()
     {
         scanf("%d",&arr[a]);
     }
-    for (a=0;a<n;a++)
+    for (a=0;a<n-1;a++)
     {
-        if (arr[a]>=arr[a+1])
+        if (arr[a]>arr[a+1])
         {
             printf("Not Sorted");
             return 0;
         }
     }
-
         printf ("Sorted");
-    
     return 0;
 }
