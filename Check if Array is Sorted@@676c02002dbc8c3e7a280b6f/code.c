@@ -10,7 +10,7 @@ int main()
     }
     for (a=0;a<n;a++)
     {
-        if (arr[i]>arr[i+1])
+        if (arr[a]>arr[a+1])
         {
             sorted = 1;
         }
