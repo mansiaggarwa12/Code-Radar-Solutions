@@ -24,7 +24,7 @@ int main() {
 
     // Print the rotated array
     for (int i = 0; i < N; i++) {
-        printf("%d ", arr[i]);
+        printf("%d \n", arr[i]);
     }
 
     return 0;
