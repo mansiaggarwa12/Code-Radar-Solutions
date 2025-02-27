@@ -10,16 +10,13 @@ int main()
     }
     for (a=0;a<n;a++)
     {
-        for (int b=0;b<n;b++)
+        if (arr[i]>arr[i+1])
         {
-            if (arr[a]>arr[b])
-            {
-                sorted =1;
-            }
-            else 
-            {
-                sorted =0;
-            }
+            sorted = 1;
+        }
+        else 
+        {
+            sorted = 0;
         }
     }
     if (sorted==1)
