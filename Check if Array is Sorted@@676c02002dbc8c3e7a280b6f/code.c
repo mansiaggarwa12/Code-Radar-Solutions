@@ -12,20 +12,12 @@ int main()
     {
         if (arr[a]>=arr[a+1])
         {
-            sorted = 1;
-        }
-        else 
-        {
-            sorted = 0;
+            printf("Not Sorted");
+            return 0;
         }
     }
-    if (sorted==1)
-    {
-        printf("Not Sorted");
-    }
-    else if (sorted==0)
-    {
+
         printf ("Sorted");
-    }
+    
     return 0;
 }
