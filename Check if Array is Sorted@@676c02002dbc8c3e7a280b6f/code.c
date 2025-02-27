@@ -12,7 +12,7 @@ int main()
     {
         for (int b=0;b<n;b++)
         {
-            if (arr[a]>arr[b])
+            if (arr[a]>=arr[b])
             {
                 sorted =1;
             }
