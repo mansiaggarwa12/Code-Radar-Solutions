@@ -10,7 +10,7 @@ int main()
     }
     for (int a =0; a<n;a++)
     {
-        if (arr[a]>arr[a-1]&&arr[a]>arr[arr+1])
+        if (arr[a]>arr[a-1]&&arr[a]>arr[a+1])
         {
             printf ("%d",arr[a]);
             return 0;
