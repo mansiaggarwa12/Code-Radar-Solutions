@@ -1,31 +1,40 @@
 #include <stdio.h>
-int main()
-{
+
+int main() {
     int n;
-    scanf("%d",&n);
+    scanf("%d", &n);
     int arr[n];
-    for (int a=0;a<n;a++)
-    {
-        scanf("%d",&arr[a]);
+
+    for (int a = 0; a < n; a++) {
+        scanf("%d", &arr[a]);
     }
-    if (arr[0]>arr[1])
-    {
-        printf("%d",arr[0]);
+
+    // If there's only one element, it is a peak
+    if (n == 1) {
+        printf("%d", arr[0]);
         return 0;
     }
-    if (arr[n-1]>arr[n-2])
-    {
-        printf("%d",arr[n-1]);
+
+    // Checking the first element
+    if (arr[0] > arr[1]) {
+        printf("%d", arr[0]);
         return 0;
     }
-    for (int a =0; a<n-1;a++)
-    {
-        if (arr[a]>arr[a-1]&&arr[a]>arr[a+1])
-        {
-            printf ("%d",arr[a]);
+
+    // Checking the last element
+    if (arr[n - 1] > arr[n - 2]) {
+        printf("%d", arr[n - 1]);
+        return 0;
+    }
+
+    // Checking the middle elements
+    for (int a = 1; a < n - 1; a++) {
+        if (arr[a] > arr[a - 1] && arr[a] > arr[a + 1]) {
+            printf("%d", arr[a]);
             return 0;
         }
     }
-    printf("%d",-1);
+
+    printf("-1"); // No peak found
     return 0;
 }
