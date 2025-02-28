@@ -21,11 +21,7 @@ int main() {
         return 0;
     }
 
-    // Checking the last element
-    if (arr[n - 1] > arr[n - 2]) {
-        printf("%d", arr[n - 1]);
-        return 0;
-    }
+   
 
     // Checking the middle elements correctly
     for (int a = 1; a < n - 1; a++) {  // **Fixed loop range**
@@ -34,7 +30,11 @@ int main() {
             return 0;
         }
     }
-
+ // Checking the last element
+    if (arr[n - 1] > arr[n - 2]) {
+        printf("%d", arr[n - 1]);
+        return 0;
+    }
     printf("-1"); // No peak found
     return 0;
 }
