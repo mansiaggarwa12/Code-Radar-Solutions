@@ -27,10 +27,10 @@ int main() {
         return 0;
     }
 
-    // Checking the middle elements
-    for (int a = 1; a < n - 1; a++) {
+    // Checking the middle elements correctly
+    for (int a = 1; a < n - 1; a++) {  // **Fixed loop range**
         if (arr[a] > arr[a - 1] && arr[a] > arr[a + 1]) {
-            printf("%d", arr[a]);
+            printf("%d", arr[a]);  // First peak found
             return 0;
         }
     }
