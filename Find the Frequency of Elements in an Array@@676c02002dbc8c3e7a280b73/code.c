@@ -26,7 +26,7 @@ int main()
     }
     for (a=0;a<n;a++)
     {
-        int freq++;
+        int freq=0;
         for (b=0;b<n;b++)
         {
             if (arr2[b]==arr[a])
