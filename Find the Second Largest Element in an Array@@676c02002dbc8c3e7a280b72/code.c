@@ -6,7 +6,7 @@ int main()
     int a,arr[n];
     for (a=0;a<n;a++)
     {
-        scanf("%d",arr[a]);
+        scanf("%d",&arr[a]);
     }
     int max=arr[0],max2=arr[0];
     for (a=0;a<n;a++)
