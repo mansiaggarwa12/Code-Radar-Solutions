@@ -31,7 +31,7 @@ int main() {
     }
 
     // If no second maximum exists, return -1
-    if (max2 == -1000000000) {
+    if (max2 == -100) {
         printf("-1");
     } else {
         printf("%d", max2);
