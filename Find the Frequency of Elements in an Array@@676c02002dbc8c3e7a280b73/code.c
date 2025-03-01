@@ -1,19 +1,19 @@
 #include <stdio.h>
 int main()
 {
-    int n,a,c=1;
+    int n,a,b,c=1;
     scanf("%d",&n);
     int arr[n];
     for (a=0;a<n;a++)
     {
         scanf ("%d",&arr[a]);
     }
-    int arr2[c];
+    int arr2[n];
     for (a=0;a<n;a++)
     {
-        for (int b=0;b<n;b++)
+        for (b=0;b<c;b++)
         {
-            if (arr[a]==arr[b])
+            if (arr[a]==arr2[b])
             {
                 continue;
             }
@@ -26,15 +26,15 @@ int main()
     }
     for (a=0;a<n;a++)
     {
-        int freq = 0;
-        for (int b=0;b<n;b++)        
+        int freq++;
+        for (b=0;b<n;b++)
         {
-            if (arr2[a]==arr[b])
+            if (arr2[b]==arr[a])
             {
                 freq++;
             }
         }
-        printf ("%d %d\n",arr[a],freq);
+        printf ("%d %d",arr2[b],freq);
     }
     return 0;
 }
