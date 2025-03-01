@@ -4,12 +4,13 @@ int main()
     int n,a;
     scanf("%d",&n);
     int arr[n];
-    int min=arr[0];
-    int max=arr[0];
+    
     for (a=0;a<n;a++)
     {
         scanf("%d",&n);
     }
+    int min=arr[0];
+    int max=arr[0];
     for (a=0;a<n;a++)
     {
         if (min<arr[a])
