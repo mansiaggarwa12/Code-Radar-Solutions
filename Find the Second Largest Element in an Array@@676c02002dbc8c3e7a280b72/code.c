@@ -14,7 +14,7 @@ int main() {
         scanf("%d", &arr[a]);
     }
 
-    int max = arr[0], max2 = -1000000000; // Initialize max2 with a very small number.
+    int max = arr[0], max2 = -100; // Initialize max2 with a very small number.
 
     // Find the maximum element
     for (a = 1; a < n; a++) {
