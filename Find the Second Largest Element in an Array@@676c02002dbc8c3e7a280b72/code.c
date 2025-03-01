@@ -23,14 +23,14 @@ int main()
             max2=arr[a];
         }
     }
-    for (a=0;a<n;a++)
-    {
+    
+    
         if (max2==max)
         {
             printf("%d",-1);
             return 0;
         }
-    }
+    
     printf ("%d",max2);
     return 0;
 }
