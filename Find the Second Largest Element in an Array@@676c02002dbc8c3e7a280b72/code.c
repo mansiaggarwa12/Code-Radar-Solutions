@@ -18,7 +18,7 @@ int main()
     }
     for (a=0;a<n;a++)
     {
-        if (max2<arr[a]&&max2<max)
+        if (max2<arr[a]&&arr[a]<max)
         {
             max2=arr[a];
         }
