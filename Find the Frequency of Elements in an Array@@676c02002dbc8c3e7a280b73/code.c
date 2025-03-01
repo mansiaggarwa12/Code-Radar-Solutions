@@ -2,7 +2,7 @@
 int main()
 {
     int n,a;
-    scanf("%d",n);
+    scanf("%d",&n);
     int arr[n],vis[n];
     for (a=0;a<n;a++)
     {
