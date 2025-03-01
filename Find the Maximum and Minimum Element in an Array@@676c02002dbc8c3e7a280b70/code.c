@@ -17,12 +17,18 @@ int main()
             {
                 min = arr[a];
             }
+        }
+    }
+        for (int a=0;a<n;a++)
+        {
+            for (int b=0;b<n;b++)
+            {
             if (arr[a]>arr[b])
             {
                 max = arr[a];
             }
+            }
         }
-    }
     printf ("%d %d", min , max);
     return 0;
 }
