@@ -11,7 +11,7 @@ int main()
     int arr2[c];
     for (a=0;a<n;a++)
     {
-        for (b=0;b<n;b++)
+        for (int b=0;b<n;b++)
         {
             if (arr[a]==arr[b])
             {
