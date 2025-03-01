@@ -20,7 +20,7 @@ int main()
     {
         if (max2>arr[a]&&max2!=max)
         {
-            max2=arr[a]
+            max2=arr[a];
         }
     }
     printf ("%d",max2);
