@@ -9,15 +9,18 @@ int main()
         scanf("%d",&arr[a]);
     }
     int max=arr[0],min=arr[0];
-    for (int a=0;a<n-1;a++)
+    for (int a=0;a<n;a++)
     {
-        if (arr[a]<arr[a+1])
+        for (int b=0;b<n;b++)
         {
-            min=arr[a];
-        }
-        if (arr[a]>arr[a+1])
-        {
-            max=arr[a];
+            if (arr[a]<arr[b])
+            {
+                min = arr[a];
+            }
+            if (arr[a]>arr[b])
+            {
+                max = arr[a];
+            }
         }
     }
     printf ("%d %d", min , max);
