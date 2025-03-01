@@ -24,7 +24,7 @@ int main()
                 vis[b]=1;
             }
         }
-        printf("%d %d",arr[a],count);
+        printf("%d %d\n",arr[a],count);
     }
     return 0;
 }
