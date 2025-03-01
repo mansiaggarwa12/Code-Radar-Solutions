@@ -1,40 +1,30 @@
 #include <stdio.h>
 int main()
 {
-    int n,a,b,c=1;
-    scanf("%d",&n);
-    int arr[n];
+    int n,a;
+    scanf("%d",n);
+    int arr[n],vis[n];
     for (a=0;a<n;a++)
     {
-        scanf ("%d",&arr[a]);
-    }
-    int arr2[n];
-    for (a=0;a<n;a++)
-    {
-        for (b=0;b<c;b++)
-        {
-            if (arr[a]==arr2[b])
-            {
-                continue;
-            }
-            else 
-            {
-                arr2[c-1]=arr[a];
-                c++;
-            }
-        }
+        scanf("%d",&arr[a]);
+        vis[a]=0;
     }
     for (a=0;a<n;a++)
     {
-        int freq=0;
-        for (b=0;b<n;b++)
+        if (vis[a]==1)
         {
-            if (arr2[b]==arr[a])
+            continue;
+        }
+        int count=1;
+        for (int b=a+1;b<n;b++)
+        {
+            if (arr[a]==arr[b])
             {
-                freq++;
+                count++;
+                vis[b]=1;
             }
         }
-        printf ("%d %d",arr2[b],freq);
+        printf("%d %d",arr[i],count);
     }
     return 0;
 }
