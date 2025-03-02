@@ -4,10 +4,10 @@ int main() {
     int n;
     scanf("%d", &n);
     
-    if (n < 2) { // If only one number is given, we can't find the second max.
-        printf("-1");
-        return 0;
-    }
+    // if (n < 2) { // If only one number is given, we can't find the second max.
+    //     printf("-1");
+    //     return 0;
+    // }
 
     int a, arr[n];
     for (a = 0; a < n; a++) {
