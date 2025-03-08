@@ -17,7 +17,7 @@ int main()
             {
                 for (int d=0;d<n;d++)
                 {
-                    if (arr[b]=arr[d])
+                    if (arr[b]==arr[d])
                     {
                         count++;
                     }
