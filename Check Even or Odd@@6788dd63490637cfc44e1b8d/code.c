@@ -12,5 +12,6 @@
         {
             printf("Odd");
         }
-    }
+    
     return 0;
+    }
