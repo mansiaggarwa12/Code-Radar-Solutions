@@ -18,7 +18,7 @@ int main()
             break;
         }
     }
-    if (m=0)
+    if (m==0)
     {
         printf("-1");
     }
