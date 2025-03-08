@@ -11,13 +11,16 @@ int main()
     int max=1,count=1;
     for (a=0;a<n;a++)
     {
-        if (arr[a]==arr[a+1])
+        for (int b=0;b<n;b++)
         {
-            count++;
-        }
-        if (max<count)
-        {
-            max=count;
+            if (arr[a]==arr[b])
+            {
+                count++;
+            }
+            if (max<count)
+            {
+                max=count;
+            }
         }
         count=1;
     }
