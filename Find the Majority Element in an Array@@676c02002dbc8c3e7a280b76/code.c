@@ -26,7 +26,7 @@ int main()
         count=0;
         
     }
-    if (max>=n/2)
+    if (max>n/2)
     {
         printf("%d",num);
     }
