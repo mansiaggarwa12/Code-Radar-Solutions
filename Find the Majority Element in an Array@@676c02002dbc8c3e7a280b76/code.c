@@ -8,7 +8,7 @@ int main()
     {
         scanf("%d",&arr[a]);
     }
-    int max=0,count=0;
+    int max=0,count=0,num;
     for (a=0;a<n;a++)
     {
         for (int b=0;b<n;b++)
@@ -20,13 +20,15 @@ int main()
             if (max<count)
             {
                 max=count;
+                num=arr[b];
             }
         }
         count=0;
+        
     }
     if (max>=n/2)
     {
-        printf("%d",max);
+        printf("%d",num);
     }
     else 
     {
