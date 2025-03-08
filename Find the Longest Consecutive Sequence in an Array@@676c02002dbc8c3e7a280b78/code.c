@@ -10,7 +10,7 @@ int main()
     }
     for (a=0;a<n;a++)
     {
-        c=arr[a];
+        int c=arr[a];
         for (b=0;b<n;b++)
         {
             if (arr[b]==c)
