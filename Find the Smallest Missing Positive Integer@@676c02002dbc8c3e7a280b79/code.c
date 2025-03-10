@@ -1,38 +1,35 @@
 #include <stdio.h>
 int main()
 {
-    int n,flag=0;
+    int n; 
     scanf("%d",&n);
-    int a,b,arr[n];
+    int a,arr[n];
     for (a=0;a<n;a++)
     {
         scanf("%d",&arr[a]);
     }
-    int min =arr[0],index=0;
+    int min=arr[0],flag=0,req;
     for (a=0;a<n;a++)
     {
         if (min>arr[a])
         {
-            min=arr[a];
+            min==arr[a];
         }
     }
     for (a=0;a<n;a++)
     {
-        for (b=0;b<n;b++)
+        if (min+1==arr[a])
         {
-            if (min+1==arr[b])
-            {
-                flag=1;
-                min++;
-                continue;
-            }
-            else 
-            {
-                index=b;
-            }
-
+            flag=0;
+            min++;
+            continue;
+        }
+        else 
+        {
+            flag=1;
+            req=a;
         }
     }
-    printf("%d",arr[index]+1);
+    printf("%d",req+1);
     return 0;
 }
