@@ -14,6 +14,7 @@ int main()
         if (arr[a]==num)
         {
             num++;
+            break;
         }
         else 
         {
