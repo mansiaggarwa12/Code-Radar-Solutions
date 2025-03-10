@@ -1,27 +1,20 @@
 #include <stdio.h>
 int main()
 {
-    int n;
+    int n,count=1;
     scanf("%d",&n);
-    int a,b,arr[n],count=0;
+    int a,arr[n];
     for (a=0;a<n;a++)
     {
         scanf("%d",&arr[a]);
     }
     for (a=0;a<n;a++)
     {
-        int c=arr[a];
-        for (b=0;b<n;b++)
+        for (int b=0;b<n;b++)
         {
-            if (arr[b]==c)
+            if (arr[a]+1==arr[b])
             {
-                for (int d=0;d<n;d++)
-                {
-                    if (arr[b]==arr[d])
-                    {
-                        count++;
-                    }
-                }
+                count++;
             }
         }
     }
