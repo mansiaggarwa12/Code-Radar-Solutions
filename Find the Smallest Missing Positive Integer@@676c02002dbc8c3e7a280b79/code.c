@@ -19,7 +19,7 @@ int main()
     {
         if (present[arr[a]]==0)
         {
-            printf("%d\n",i);
+            printf("%d\n",a);
             return 0;
         }
     }
