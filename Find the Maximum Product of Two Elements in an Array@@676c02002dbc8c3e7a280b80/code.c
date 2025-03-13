@@ -1,55 +1,55 @@
 #include <stdio.h>
-
 int main()
 {
     int n;
-    scanf("%d", &n);
-    int arr[n];
-
-    // Read the array elements
-    for (int i = 0; i < n; i++)
+    scanf("%d",&n);
+    int a,arr[n];
+    for (a=0;a<n;a++)
     {
-        scanf("%d", &arr[i]);
+        scanf("%d",&arr[a]);
     }
-
-    // Initialize max, max2, min, and min2
-    int max = arr[0], max2 = -1000000000, min = arr[0], min2 = 1000000000;
-
-    // Loop through the array to find max, max2, min, and min2
-    for (int i = 1; i < n; i++)
+    int max=arr[0],max2=-1000,min=arr[0],min2=1000;
+    for (a=0;a<n;a++)
     {
-        // For max and max2
-        if (arr[i] > max)
+        if (arr[a]>max)
         {
-            max2 = max;
-            max = arr[i];
-        }
-        else if (arr[i] > max2 && arr[i] != max)
-        {
-            max2 = arr[i];
-        }
-
-        // For min and min2
-        if (arr[i] < min)
-        {
-            min2 = min;
-            min = arr[i];
-        }
-        else if (arr[i] < min2 && arr[i] != min)
-        {
-            min2 = arr[i];
+            max=arr[a];
         }
     }
-
-    // Compare the product of max*max2 and min*min2
-    if (max * max2 >= min * min2)
+    for (a=0;a<n;a++)
     {
-        printf("%d", max * max2);
+        if (arr[a]>max2)
+        {
+            if (arr[a]!=max)
+            {
+                max2=arr[a];
+            }
+        }
     }
-    else
+    for (a=0;a<n;a++)
     {
-        printf("%d", min * min2);
+        if (arr[a]<min)
+        {
+            min=arr[a];
+        }
     }
-
+    for (a=0;a<n;a++)
+    {
+        if (arr[a]!=min)
+        {
+            if (arr[a]<min2)
+            {
+                min2=arr[a];
+            }
+        }
+    }
+    if (max*max2>=min*min2)
+    {
+        printf("%d",max*max2);
+    }
+    else 
+    {
+        printf("%d",min*min2);
+    }
     return 0;
 }
