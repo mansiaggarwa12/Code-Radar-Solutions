@@ -41,7 +41,7 @@ int main()
     }
 
     /* Prints the result */
-    printf("%.2f", num1, op, num2, result);
+    printf("%f", num1, op, num2, result);
 
     return 0;
 }
