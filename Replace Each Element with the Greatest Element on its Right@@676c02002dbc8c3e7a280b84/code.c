@@ -11,7 +11,7 @@ int main()
     for (a=0;a<n;a++)
     {
         int max=arr[a];
-        for (b=a;b<n;b++)
+        for (b=a+1;b<n;b++)
         {
             if (max<arr[b])
             {
@@ -23,7 +23,7 @@ int main()
     arr[n-1]=-1;
     for (a=0;a<n;a++)
     {
-        printf("%d",arr[a]);
+        printf("%d ",arr[a]);
     }
     return 0;
 }
