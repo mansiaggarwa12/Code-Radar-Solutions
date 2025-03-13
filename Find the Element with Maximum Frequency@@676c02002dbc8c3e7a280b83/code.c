@@ -19,7 +19,7 @@ int main()
                 count++;
             }
         }
-        arr2[b]=count;
+        arr2[a]=count;
     }
     int max=arr2[0];
     for (a=0;a<n;a++)
