@@ -18,7 +18,7 @@ int main()
     }
     for (a=0;a<n;a++)
     {
-        printf("%d",arr[a]);
+        printf("%d ",arr[a]);
     }
     return 0;
 }
