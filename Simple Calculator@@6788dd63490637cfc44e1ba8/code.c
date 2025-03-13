@@ -37,11 +37,11 @@ int main()
             break;
 
         default: 
-            printf("Invalid operator");
+            printf("error");
     }
 
     /* Prints the result */
-    printf("%.2f %c %.2f = %.2f", num1, op, num2, result);
+    printf("%.2f", num1, op, num2, result);
 
     return 0;
 }
