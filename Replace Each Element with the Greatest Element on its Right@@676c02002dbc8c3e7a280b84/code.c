@@ -10,18 +10,20 @@ int main()
     }
     for (a=0;a<n;a++)
     {
+        int max=arr[a];
         for (b=a;b<n;b++)
         {
-            if (arr[b]>arr[a])
+            if (max<arr[b])
             {
-                arr[a]=arr[b];
+                max=arr[b];
             }
+            arr[b]=max;
         }
     }
     arr[n-1]=-1;
     for (a=0;a<n;a++)
     {
         printf("%d",arr[a]);
-        return 0;
     }
+    return 0;
 }
