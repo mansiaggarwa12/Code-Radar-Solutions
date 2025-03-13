@@ -11,20 +11,17 @@ int main()
     for (a=0;a<n;a++)
     {
         int prime=0;
-        for (int b=2;b*b<=arr[a];b++)
-        {
-            if (arr[a]<=1)
+        if (arr[a]<=1)
             {
                 continue;
             }
-            else   
-            {
+        for (int b=2;b*b<=arr[a];b++)
+        {
                 if (arr[a]%b==0)
                 {
                     prime=1;
                     break;
                 }
-            }
         }
         if (prime==0)
         {
