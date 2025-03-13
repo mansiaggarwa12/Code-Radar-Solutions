@@ -8,17 +8,17 @@ int main()
     {
         scanf("%d",&arr[a]);
     }
+    int index=0;
     for (a=0;a<n;a++)
     {
-        for (int b=a;b<n;b++)
+        if (arr[a]!=0)
         {
-            if(arr[a]==0)
-            {
-                arr[b]=arr[b+1];
-                arr[n-1]=0;
-            }
-           
+            arr[index++]=arr[a];
         }
+    }
+    while (index<n)
+    {
+        arr[index++]=0;
     }
     for (a=0;a<n;a++)
     {
