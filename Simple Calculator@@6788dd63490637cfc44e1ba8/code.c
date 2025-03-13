@@ -4,8 +4,8 @@ int main()
     float a,b;
     char c;
     scanf("%f %f",&a,&b);
-    scanf("%c ",&c);
-    printf("%c ",c);
+    scanf("%s ",&c);
+    printf("%s ",c);
     switch (c)
     {
     case '+':
