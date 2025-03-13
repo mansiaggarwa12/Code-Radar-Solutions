@@ -8,7 +8,7 @@ int main()
     {
         scanf("%d",&arr[a]);
     }
-    int arr2[n];
+    int freqNum=-1,maxfreq=0;
     for (a=0;a<n;a++)
     {
         int count=0;
@@ -18,17 +18,13 @@ int main()
             {
                 count++;
             }
-        }
-        arr2[a]=count;
-    }
-    int max=arr2[0];
-    for (a=0;a<n;a++)
-    {
-        if (max<arr2[a])
-        {
-            max=arr2[a];
+            if (count>maxfreq)
+            {
+                maxfreq=count;
+                freqNum=arr[a];
+            }
         }
     }
-    printf("%d",arr[max]);
+    printf("%d",freqNum);
     return 0;
 }
