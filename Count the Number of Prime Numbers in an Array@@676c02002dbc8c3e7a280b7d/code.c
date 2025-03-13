@@ -13,11 +13,8 @@ int main()
         int prime=0;
         for (int b=2;b<arr[a];b++)
         {
-            if (arr[a]==1)
-            {
-                continue;
-            }
-            if (arr[a]%b==0)
+            
+            if (arr[a]%b==0&&arr[a]>1)
             {
                 prime=1;
                 break;
