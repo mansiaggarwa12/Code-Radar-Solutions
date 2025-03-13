@@ -26,7 +26,7 @@ int main()
     {
         if (max<arr2[a])
         {
-            max==arr2[a];
+            max=arr2[a];
         }
     }
     printf("%d",arr2[max]);
