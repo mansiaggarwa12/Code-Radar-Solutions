@@ -10,7 +10,7 @@ int main()
     }
     for (a=0;a<n;a++)
     {
-        prime=0;
+        int prime=0;
         for (int b=0;b<arr[a],b++)
         {
             if (arr[a]%b==0)
