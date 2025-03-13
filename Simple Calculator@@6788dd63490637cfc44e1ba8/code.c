@@ -2,7 +2,7 @@
 int main()
 {
     float a,b;
-    char c;
+    char c[60];
     scanf("%f %f",&a,&b);
     scanf("%s",c);
     printf("%s ",c);
