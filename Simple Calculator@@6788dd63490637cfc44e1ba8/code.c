@@ -10,12 +10,12 @@ int main()
     float num1, num2, result=0.0f;
 
     /* Print welcome message */
-    printf("WELCOME TO SIMPLE CALCULATOR\n");
-    printf("----------------------------\n");
-    printf("Enter [number 1] [+ - * /] [number 2]\n");
+    // printf("WELCOME TO SIMPLE CALCULATOR\n");
+    // printf("----------------------------\n");
+    // printf("Enter [number 1] [+ - * /] [number 2]\n");
 
     /* Input two number and operator from user */
-    scanf("%f %c %f", &num1, &op, &num2);
+    scanf("%f %f %c", &num1,  &num2,&op);
 
     /* Switch the value and perform action based on operator*/
     switch(op)
