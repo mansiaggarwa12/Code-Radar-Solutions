@@ -35,9 +35,9 @@ int main()
     }
     for (a=0;a<n;a++)
     {
-        if (arr[a]<min)
+        if (arr[a]<min2)
         {
-            if (min2!=min)
+            if (arr[a]!=min)
             {
                 min2=arr[a];
             }
