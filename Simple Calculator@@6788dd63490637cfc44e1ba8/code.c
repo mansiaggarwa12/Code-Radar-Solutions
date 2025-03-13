@@ -41,7 +41,7 @@ int main()
     }
 
     /* Prints the result */
-    printf("%f",  result);
+    printf("%.0f",  result);
 
     return 0;
 }
