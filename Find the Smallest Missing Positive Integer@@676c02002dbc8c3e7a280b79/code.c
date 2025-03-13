@@ -24,7 +24,7 @@ int main()
             return 0;
         }
     }
-    printf("%d",a+1);
+    printf("%d",n+1);
     return 0;
 
 
