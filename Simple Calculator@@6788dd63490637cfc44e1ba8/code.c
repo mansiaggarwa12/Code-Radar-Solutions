@@ -33,6 +33,11 @@ int main()
             break;
 
         case '/': 
+            if (num2==0)
+            {
+                printf("error");
+                retrun 0;
+            }
             result = num1 / num2;
             break;
 
