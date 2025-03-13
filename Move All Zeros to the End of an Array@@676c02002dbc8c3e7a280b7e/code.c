@@ -10,11 +10,14 @@ int main()
     }
     for (a=0;a<n;a++)
     {
-        if (arr[a]==0)
+        for (int b=a;b<n;b++)
         {
-            arr[a]=arr[a+1];
-            arr[n-1]=0;
-            a--;
+            if(arr[a]==0)
+            {
+                arr[b]=arr[b+1];
+                arr[n-1]=0;
+            }
+           
         }
     }
     for (a=0;a<n;a++)
