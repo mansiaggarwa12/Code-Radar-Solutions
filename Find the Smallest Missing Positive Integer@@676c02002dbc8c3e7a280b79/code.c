@@ -1,34 +1,31 @@
 #include <stdio.h>
-
-int main() {
+int main()
+{
     int n;
-    scanf("%d", &n);
-    
-    int arr[n], present[n + 1]; 
-    
-    
-    for (int i = 0; i <= n; i++) {
-        present[i] = 0;
+    scanf("%d",&n);
+    int a,arr[n],present[n+1];
+    for (a=0;a<n+1;a++)
+    {
+        present[a]=0;
     }
-
-  
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
-        if (arr[i] > 0 && arr[i] <= n) {
-            present[arr[i]] = 1; 
+    for (a=0;a<n;a++)
+    {
+        scanf("%d",&arr[a]);
+        if (arr[a]>0&&arr[a]<=n)
+        {
+            present[arr[a]]=1;
         }
     }
-
-    // Find the smallest missing positive integer
-    for (int i = 1; i <= n; i++) {
-        if (present[i] == 0) {
-            printf("%d\n", i);
+    for (a=1;a<=n;a++)
+    {
+        if (present[a]==0)
+        {
+            printf("%d",a);
             return 0;
         }
     }
-
-  
-    printf("%d\n", n + 1);
-    
+    printf("%d",a+1);
     return 0;
+
+
 }
