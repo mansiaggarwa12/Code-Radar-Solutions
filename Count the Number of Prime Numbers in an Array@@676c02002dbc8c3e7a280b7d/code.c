@@ -13,6 +13,10 @@ int main()
         int prime=0;
         for (int b=2;b<arr[a];b++)
         {
+            if (arr[a]==1)
+            {
+                continue;
+            }
             if (arr[a]%b==0)
             {
                 prime=1;
