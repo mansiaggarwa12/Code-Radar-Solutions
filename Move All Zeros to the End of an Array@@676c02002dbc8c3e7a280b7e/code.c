@@ -14,6 +14,7 @@ int main()
         {
             arr[a]=arr[a+1];
             arr[n-1]=0;
+            a--;
         }
     }
     for (a=0;a<n;a++)
