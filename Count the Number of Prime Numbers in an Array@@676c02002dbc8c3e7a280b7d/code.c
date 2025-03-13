@@ -14,7 +14,7 @@ int main()
         for (int b=2;b<arr[a];b++)
         {
             
-            if (arr[a]%b==0||b<=1)
+            if (arr[a]%b==0||arr[a]<=1)
             {
                 prime=1;
                 break;
