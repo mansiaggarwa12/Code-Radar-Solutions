@@ -35,7 +35,7 @@ int main()
     }
     for (a=0;a<n;a++)
     {
-        if (arr[a]<min2)
+        if (arr[a]<min)
         {
             if (min2!=min)
             {
