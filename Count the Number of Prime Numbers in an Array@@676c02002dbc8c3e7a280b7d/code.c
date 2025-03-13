@@ -11,7 +11,7 @@ int main()
     for (a=0;a<n;a++)
     {
         int prime=0;
-        for (int b=2;b<arr[a];b++)
+        for (int b=2;b*b<arr[a];b++)
         {
             if (arr[a]<=1)
             {
