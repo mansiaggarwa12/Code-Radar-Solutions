@@ -11,7 +11,7 @@ int main()
     for (a=0;a<n;a++)
     {
         int max;
-        for (b=a+1;b<n;b++)
+        for (b=n;b>a;b--)
         {
             max = arr[b];
             if (max<arr[b])
