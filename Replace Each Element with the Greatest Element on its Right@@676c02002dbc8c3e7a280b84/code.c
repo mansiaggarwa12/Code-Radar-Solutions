@@ -7,12 +7,12 @@ int main()
     for (a=0;a<n;a++)
     {
         scanf("%d",&arr[a]);        
-    }int max=-100;
+    }
     for (a=0;a<n;a++)
-    {        
+    {   
+        int max=-100;     
         for (b=a;b<n;b++)
-        {
-            
+        {            
             if (max<arr[b])
             {
                 max=arr[b];
