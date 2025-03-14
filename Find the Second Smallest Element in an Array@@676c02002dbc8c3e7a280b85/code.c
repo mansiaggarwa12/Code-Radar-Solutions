@@ -26,6 +26,10 @@ int main()
             }
         }
     }
+    if (min2==100)
+    {
+        min2=-1;
+    }
     printf("%d",min2);
     return 0;
 }
