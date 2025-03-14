@@ -6,24 +6,24 @@ int main()
     int a,b,arr[n];
     for (a=0;a<n;a++)
     {
-        scanf("%d",&arr[a]);
+        scanf("%d",&arr[a]);        
     }
     for (a=0;a<n;a++)
     {
-        int max=arr[a];
         for (b=a+1;b<n;b++)
         {
+            int max = arr[b];
             if (max<arr[b])
             {
                 max=arr[b];
             }
-            arr[b]=max;
         }
+        arr[b]=max;
     }
     arr[n-1]=-1;
     for (a=0;a<n;a++)
     {
-        printf("%d ",arr[a]);
+        printf("%d",arr[a]);
     }
     return 0;
 }
