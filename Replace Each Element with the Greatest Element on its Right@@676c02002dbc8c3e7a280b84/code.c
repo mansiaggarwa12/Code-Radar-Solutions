@@ -17,9 +17,9 @@ int main()
             if (max<arr[b])
             {
                 max=arr[b];
-            }arr[b]=max;
+            }
         }
-        
+        arr[a]=max;
     }
     arr[n-1]=-1;
     for (a=0;a<n;a++)
