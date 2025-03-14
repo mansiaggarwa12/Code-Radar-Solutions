@@ -11,7 +11,7 @@ int main()
     for (a=0;a<n;a++)
     {
         int sum=0;
-        for (b=n-1;b>a;b++)
+        for (b=n-1;b>a;b--)
         {
             sum+=arr[b];
         }
