@@ -8,10 +8,10 @@ int main()
     {
         scanf("%d",&arr[a]);
     }
-    for (a=0;a<n;a++)
+    for (a=n-1;a>0;a--)
     {
         int sum=0;
-        for (b=n-1;b>a;b--)
+        for (b=a+1;b<n;b++)
         {
             sum+=arr[b];
         }
