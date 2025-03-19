@@ -10,7 +10,7 @@ int main()
     }
     for (a=0;a<n-2;a++)
     {
-        arr[a+2]=arr[a]+arr[a+1];
+        arr[a+2]=arr[a+2]+arr[a+1];
         arr[1]=arr[1]+arr[0];
     }
     for (a=0;a<n;a++)
