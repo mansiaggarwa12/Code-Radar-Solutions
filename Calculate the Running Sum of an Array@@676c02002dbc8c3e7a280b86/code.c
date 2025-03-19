@@ -8,9 +8,9 @@ int main()
     {
         scanf("%d",&arr[a]);
     }
+        arr[1]=arr[1]+arr[0];    
     for (a=0;a<n-2;a++)
     {
-        arr[1]=arr[1]+arr[0];
         arr[a+2]=arr[a+2]+arr[a+1];
     }
     for (a=0;a<n;a++)
