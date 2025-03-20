@@ -1,6 +1,6 @@
 int isPrime(int num)
 {
-    if (num==1)
+    if (num==1||num==0)
     {
         return 0;
     }
