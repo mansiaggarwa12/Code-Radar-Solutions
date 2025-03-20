@@ -1,5 +1,6 @@
 int isPrime(int num)
 {
+    int prime=0;
     if (num==0||num==1)
     {
         return 0;
@@ -10,12 +11,20 @@ int isPrime(int num)
     {
         if (num%a==0)
         {
-            return 0;
+            prime=0;
         }
         else 
         {
-            return 1;
+            prime=1;
         }
     }
+    }
+    if (prime==0)
+    {
+        return 0;
+    }
+    else if (prime=1)
+    {
+        return 1;
     }
 }
