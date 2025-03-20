@@ -20,9 +20,14 @@ int main()
             }
         }
     }
-    for (a=0;a<n;a++)
+    if (n%2==1)
     {
-        printf("%d ",arr[a]);
+        printf("%d",arr[n/2+1]);
+    }
+    else 
+    {
+        int med=(arr[n/2]+arr[n/2+1])/2;
+        printf("%d",med);
     }
     return 0;
 }
