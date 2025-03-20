@@ -11,7 +11,7 @@ int main()
     scanf("%d",&k);
     for (a=0;a<n;a++)
     {
-        for (b=a;b<n;b++)
+        for (b=a+1;b<n;b++)
         {
             if (arr[a]+arr[b]==k)
             {
