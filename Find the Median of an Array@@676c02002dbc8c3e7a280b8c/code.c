@@ -26,7 +26,7 @@ int main()
     }
     else 
     {
-        int med=(arr[n/2]+arr[n/2+1])/2;
+        int med=(arr[n/2]+arr[n/2-1])/2;
         printf("%d",med);
     }
     return 0;
