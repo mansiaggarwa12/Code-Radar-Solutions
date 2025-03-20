@@ -1,21 +1,18 @@
 int isPrime(int num)
 {
-    if (num==0||num==1)
+    if (mun==1)
     {
         return 0;
     }
-    else
+    else 
     {
-    for (int a=2;a*a<=num;a++)
-    {
-        if (num%a==0)
+        for (int a=2;a*a<=num;a++)
         {
-            return 0;
+            if (num%a==0)
+            {
+                return 0;
+            }
         }
-        else 
-        {
-            return 1;
-        }
-    }
+        return 1;
     }
 }
