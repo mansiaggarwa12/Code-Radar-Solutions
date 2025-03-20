@@ -6,7 +6,7 @@ int isPrime(int num)
     }
     else
     {
-    for (int a=0;a*a<num;a++)
+    for (int a=2;a*a<=num;a++)
     {
         if (num%a==0)
         {
