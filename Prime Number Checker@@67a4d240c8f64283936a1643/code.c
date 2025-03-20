@@ -4,6 +4,8 @@ int isPrime(int num)
     {
         return 0;
     }
+    else
+    {
     for (int a=0;a*a<num;a++)
     {
         if (num%a==0)
@@ -14,5 +16,6 @@ int isPrime(int num)
         {
             return 1;
         }
+    }
     }
 }
