@@ -13,7 +13,7 @@ int main()
     {
         for (b=a+1;b<n;b++)
         {
-            if (arr[a]+arr[b]==k)
+            if (arr[a]+arr[b]==k&&arr[a]!=arr[b])
             {
                 printf("%d %d\n", arr[a], arr[b]);
             }
