@@ -12,7 +12,7 @@ int main()
     {
         for (b=0;b<n;b++)
         {
-            if (arr[a]>arr[b])
+            if (arr[a]<arr[b])
             {
                 int temp = arr[a];
                 arr[a]=arr[b];
