@@ -22,7 +22,7 @@ int main()
     }
     if (n%2==1)
     {
-        printf("%d",arr[n/2+1]);
+        printf("%d",arr[n/2]);
     }
     else 
     {
