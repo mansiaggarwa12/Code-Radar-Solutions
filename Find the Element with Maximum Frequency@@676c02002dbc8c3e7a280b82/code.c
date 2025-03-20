@@ -11,7 +11,7 @@ int main()
     // int count[n];
     for (a=0;a<n;a++)
     {
-        c=0;
+        int c=0;
         for (b=0;b<n;b++)
         {
             if (m<c)
