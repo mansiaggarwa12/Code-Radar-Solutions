@@ -7,7 +7,7 @@ int main()
     for (a=0;a<n;a++)
     {
         scanf("%d",&arr[a]);
-        if (arr[a]==c)
+        if (arr[a]==k)
         {
             c++;
         }
