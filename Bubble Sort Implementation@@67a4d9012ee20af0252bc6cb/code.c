@@ -18,6 +18,6 @@ void printArray (int arr[], int n)
 {
     for (int a=0;a<n;a++)
     {
-        printf("%d\n",arr[a]);
+        printf("%d ",arr[a]);
     }
 }
