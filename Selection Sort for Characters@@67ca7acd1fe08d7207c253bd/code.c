@@ -1,4 +1,4 @@
-void selectionSort (int arr[], int n)
+void selectionSort (char arr[], int n)
 {
     int a,b;
     for (a=0;a<n;a++)
@@ -11,7 +11,7 @@ void selectionSort (int arr[], int n)
                 smallestidx=b;
             }
         }
-        int temp = arr[a];
+        char temp = arr[a];
         arr[a] = arr[smallestidx];
         arr[smallestidx] = temp;
     }
