@@ -5,9 +5,9 @@ int fact (int n)
     else
     return n*fact(n-1);
 }
-int factorialRange(int start,int end)
+void factorialRange(int start,int end)
 {
-    for (int a = start; a < end ; a++)
+    for (int a = start; a <= end ; a++)
     {
         printf ("%d\n",fact(a));
     }
