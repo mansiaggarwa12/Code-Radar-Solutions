@@ -5,7 +5,7 @@ int fact (int n)
     else
     return n*fact(n-1);
 }
-void factorialRange(int start,int end)
+int factorialRange(int start,int end)
 {
     if (start>end || start<0 || end<0)
     {
