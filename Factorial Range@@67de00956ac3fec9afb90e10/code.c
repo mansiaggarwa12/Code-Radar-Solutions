@@ -8,7 +8,10 @@ int fact (int n)
 void factorialRange(int start,int end)
 {
     if (start>end || start<0 || end<0)
-    printf("Invalid Range");
+    {
+        printf("Invalid Range");
+        return 0;
+    }
     for (int a = start; a <= end ; a++)
     {
         printf ("%d\n",fact(a));
