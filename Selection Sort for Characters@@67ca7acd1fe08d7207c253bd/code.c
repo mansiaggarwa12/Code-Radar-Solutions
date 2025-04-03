@@ -20,6 +20,6 @@ void printArray (char arr[], int n)
 {
     for (int a=0;a<n;a++)
     {
-        printf ("%d ",arr[a]);
+        printf ("%c ",arr[a]);
     }
 }
