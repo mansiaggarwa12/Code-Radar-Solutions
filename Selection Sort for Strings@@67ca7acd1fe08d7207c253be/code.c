@@ -21,6 +21,6 @@ void printArray(char* arr[], int n)
     int a;
     for (a=0;a<n;a++)
     {
-        printf("%d ", arr[a]);
+        printf("%s ", arr[a]);
     }
 }
