@@ -16,7 +16,7 @@ void selectionSort (char arr[] , int n)
         arr[smallestidx] = temp;
     }
 }
-void printArray(char arr[ , int n])
+void printArray(char arr[], int n)
 {
     int a;
     for (a=0;a<n;a++)
