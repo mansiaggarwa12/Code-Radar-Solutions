@@ -11,7 +11,7 @@ void selectionSort (char* arr[] , int n)
                 smallestidx = b;
             }
         }
-        char temp = arr[b];
+        char* temp = arr[b];
         arr[b] = arr[smallestidx];
         arr[smallestidx] = temp;
     }
