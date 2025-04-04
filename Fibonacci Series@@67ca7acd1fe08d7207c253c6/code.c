@@ -17,6 +17,6 @@ int fibonacciSeries (int a)
 {
     for (int s=0;s<a;s++)
     {
-        printf("%d ",fibo(a));
+        printf("%d ",fibo(s));
     }
 }
