@@ -10,7 +10,7 @@ int fibo(int n)
     }
     else
     {
-        return fibonacciSeries(n-1)+fibonacciSeries(n-2);
+        return fibo(n-1)+fibo(n-2);
     }
 }
 int fibonacciSeries (int a)
