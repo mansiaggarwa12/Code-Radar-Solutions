@@ -8,7 +8,7 @@ int main()
     int n = strlen("s"),count=0,a;
     for (a=0;a<n;a++)
     {
-        if (s[a]=='\0');
+        if (s[a]==' ');
         {
             count++;
         }
