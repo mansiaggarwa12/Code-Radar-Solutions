@@ -4,11 +4,12 @@
 int main()
 {
     char s[100];
-    scanf("%s",&s);
+    scanf("%s",s);
     int a , n = strlen (s),count=0;
-    s=tolower(s);
+
     for (a=0;a<n;a++)
     {
+        s[a]=tolower(s[a]);
         if(s[a]=='a'||s[a]=='e'||s[a]=='i'||s[a]=='o'||s[a]=='u')
         {
             count++;
