@@ -14,7 +14,7 @@ int main()
         dup[a] = dup[n-a-1];
         dup[n-a-1] = temp;
     }
-    if (dup == s)
+    if (strcmp(dup,s))
     {
         printf("Yes");
     }
