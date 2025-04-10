@@ -16,11 +16,11 @@ int main()
     }
     if (strcmp(dup,s))
     {
-        printf("Yes");
+        printf("No");
     }
     else
     {
-        printf("No");
+        printf("Yes");
     }
     return 0;
 }
