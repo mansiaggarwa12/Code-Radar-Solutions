@@ -5,7 +5,8 @@ int main()
 {
     char s[100];
     scanf("%s",s);
-    char dup[100]=s;
+    char dup[100];
+    strcpy(dup,s);
     int n = strlen (s), a;
     for (a=0;a<n;a++)
     {
