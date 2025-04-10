@@ -8,7 +8,7 @@ int main()
     char dup[100];
     strcpy(dup,s);
     int n = strlen (s), a;
-    for (a=0;a<n;a++)
+    for (a=0;a<n/2;a++)
     {
         char temp = dup[a];
         dup[a] = dup[n-a-1];
